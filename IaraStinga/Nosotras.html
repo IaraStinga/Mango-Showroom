@@ -1,32 +1,108 @@
+</body>
+</html>
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Información </title>
-    <link rel="stylesheet" href="./css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Inicio</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- link google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;500;600;700&display=swap" rel="stylesheet">
+	<!-- linkear nuestro css -->
+	<link rel="stylesheet" href="css/estilo.css">
+	<style>
+		/*
+		selectora { bloque de codigo
+			propiedad: valor;
+		 }
+		 */
+	</style>
 </head>
 <body>
-<h1> Nuestra Información</h1>
-    <section> 
-        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/mangoshowroom_/"></a> </p>
-        <p><strong>Whatsapp:</strong>	2656412586</p>
-        <p><strong>Ubicación:</strong>	Merlo, San Luis</p> 
- </section> 
-    <section>
-        <!--Etiqueta a-->
-        <!--Menu-->
-        <ul> 
-            <li><a href="./index.html">Home</a></li>
-        </ul>
+	<!-- inicio encabezado -->
+	<header class="navBackground">
+		<!-- logo -->
+	<!-- <h3 id="pepe">LOGO</h3> -->
+	<img src="img/mango logo.jpg" alt="logo sitio">		
+		<!-- fin logo -->
+		<!-- inicio nav -->
+		<nav>
+ 			<!-- <ul class="estiloLista">
+				<li>&#10004; Home</li>
+				<li><a href="views/servicios.html" class="activada">&#10004; Servicios</a></li>
+				<li><a href="views/nosotros.html">Nosotros</a></li>
+				<li><a href="views/contacto.html">Contacto</a></li>
+				<li><a href="https://www.google.com" target="_blank" class="activada">Ir a GOOGLE</a></li>
+				<li><a href="views/contacto.html#cuerpo" class="activada">Ir al cuerpo de contacto</a></li>
+			</ul>  -->
+			
+			<ul>
+			    <li><a href="">Home</a></li>
+			    <li><a href="">Servicios</a></li>
+			    <li><a href="">Productos</a>
+			        <ul>
+			            <li><a href="">Ropa</a></li>
+			            <li><a href="">Talles</a></li>
+			        </ul>
+			    </li>
+			    <li><a href="">Contacto</a></li>
+			</ul> 
 
-    </section>
-</section>
-<!-- Enlazar imagenes-->
-<section>
-    <img src="./Img/mango logo.jpg" alt=""> 
-</section>
-    
+		</nav>
+		<!-- fin nav -->
+	</header>
+	<!-- fin encabezado -->
+	<!-- inicio clase 4 -->
+	<section>
+		<table class="tabla">
+			<tr>
+				<td>&nbsp;</td>
+				<td><h2 class="tabla__encabezado">Nuestras redes</h2></td>
+				<td>&nbsp;</td>
+			</tr>
+			</table>
+	</section>
+	<!-- inicio parallax -->
+	<section class="parallax">
+		<h4>Whatsapp</h4>
+		<p>Instagram</p>
+	</section>
+	<!-- fin parallax  -->
+	<!-- fin clase 4 -->
+	<!-- Inicio clase 5 -->
+		<div class="publicidad">
+			
+		</div>
+	<div class="parametroPosition">
+		<div class="cuadradoAzul">
+			
+		</div>
+		<div class="cuadradoRojo">
+			
+		</div>
+	</div>
+	<!-- Fin clase 5 -->
+	<!-- inicio footer -->
+	<div class="row">
+		<div class="col-5">
+			<div class="card" style="width: 18rem;">
+				<img src="./img/mango logo.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+				  <h5 class="card-title">Comunicate por WhatsApp</h5>
+				  <p class="card-text">Horarios de atención de 9 a 16hs</p>
+				  <a href="./index.html" class="btn btn-success">WPP</a>
+				</div>
+			  </div>
+		</div>
+	</div>
+	<div>
+	<footer>
+		<a href="#pepe">Ir a Whatsapp</a>
+	</footer>
+	<!-- fin footer -->
+<script src="./Js/bootstrap.bundle.min.js" ></script>
 </body>
 </html>

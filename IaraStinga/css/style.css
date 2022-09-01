@@ -245,3 +245,22 @@ h1 {
 }
 
 /* Secctio nos */
+
+/* Bootstrap */
+header {
+    background-color:rgb(224, 138, 39);
+
+}
+main.container {
+    background-color: darkgray;
+    
+
+}
+.bg-navbar-custom {
+    background-color:rgb(224, 138, 39);
+    font-family: "Montserrat";
+}
+.carousel-item img {
+    object-fit: cover;
+    height: 500px;
+}

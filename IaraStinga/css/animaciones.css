@@ -28,8 +28,8 @@
   /*  animation-name: animacion;
    animation-iteration-count: infinite;
    animation-timing-function: ease-in-out;
-   animation-duration: 3s;
-   animation-delay: 5s; */
+   animation-duration: 0.3s;
+   animation-delay: 0s; */
 }
 
 .hijo:hover{
